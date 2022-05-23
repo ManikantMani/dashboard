@@ -1,0 +1,285 @@
+/* ************************* top section style******************** */
+
+.section_container {
+  /* border: solid 2px red; */
+}
+.section__name_top_button_group {
+  /* border: solid 2px white; */
+  width: 90%;
+  margin: 20px 5%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 43.27px;
+}
+.section_name_top {
+  margin-left: 2rem;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 10px;
+  border-bottom: solid 4px #3772ff;
+}
+.section_top_right_group {
+  /* border: solid 2px yellow; */
+  display: flex;
+  width: 196.69px;
+  height: 39.27px;
+  padding-top: 3px;
+  margin-right: 2rem;
+  border-radius: 12.2549px;
+}
+.section_top_right_group > span:nth-child(1) {
+  margin-left: 12.59px;
+  line-height: 29px;
+  border-radius: 1.58px;
+  font-size: 19.14px;
+  color: blue;
+}
+.section_top_right_group > span:nth-child(2) {
+  margin-left: 16.59px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.section_top_right_div {
+  margin-left: 16.69px;
+}
+.section_top_right_button {
+  width: 50.87px;
+  height: 22.77px;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #a3e3ff;
+  color: #3772ff;
+  border: none;
+}
+
+/* ************************* Tutorial section style******************** */
+
+.section_tutorial_container {
+  width: 90%;
+  height: 90px;
+  margin: 35px 5%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #abe8ff;
+  border-radius: 10px;
+}
+.section_tutorial_text {
+  margin-left: 3rem;
+}
+.section_tutorial_p {
+  color: #2b2557;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-top: 16px;
+}
+.section_tutorial_button {
+  width: 86px;
+  height: 24px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+}
+.section_tutorial_image {
+  width: 114.29px;
+  height: 90.23px;
+}
+.section_tutorial_img {
+  margin-top: 0.5rem;
+}
+.section_tutorial_cross_button {
+  width: 24px;
+  height: 24px;
+  margin-top: -0.6rem;
+}
+.section_tutorial_cross_button_mark {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  color: #000;
+  border: none;
+  margin-left: 0.7rem;
+}
+
+/* ************************* Reward section style******************** */
+
+.section_reward_container {
+  /* border: solid 2px red; */
+  width: 90%;
+  height: 165.65px;
+  margin: 0 5%;
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  background-color: #191b20;
+  border-radius: 24px;
+}
+.section_reward_text_container {
+  /* border: solid 2px red; */
+  margin-left: 25.25px;
+  /* display: flex; */
+}
+.section_reward_text_main {
+  /* border: solid 2px white; */
+}
+.section_reward_h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+.section_reward_h1 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #fff;
+  margin-top: -5px;
+}
+.section_reward_button_group {
+  margin-left: -6.8px;
+}
+.section_reward_bottom_button {
+  width: 79.66px;
+  height: 25.08px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  color: #fff;
+  margin-left: 6.8px;
+  background-color: #353945;
+  border-radius: 11px;
+  border: none;
+}
+.section_reward_right_button {
+  width: 142.54px;
+  height: 36px;
+  margin-right: 51.82px;
+  background-color: #3772ff;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  border: none;
+  border-radius: 10px;
+}
+.section_reward_right_button > span {
+  margin-right: 5px;
+}
+
+/* ************************* Fee section style******************** */
+
+.section_fee_container {
+  /* border: solid 2px red; */
+  width: 90%;
+  margin: 19.66px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.fee_section_box1 {
+  /* border: solid 2px white; */
+  width: 340px;
+  height: 177.95px;
+  background: #191b20;
+  opacity: 0.8;
+  border-radius: 16px;
+  padding-left: 15.5px;
+}
+.fee_section_h2_logo {
+  /* border: solid 2px white; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 15px 0;
+  padding-left: 15px;
+}
+.fee_section_logo {
+  width: 24.13px;
+  height: 24.13px;
+  background: linear-gradient(135deg, #bbb5e2 0%, #9c92df 100%);
+  border-radius: 50%;
+  line-height: 25px;
+  padding-left: 4px;
+}
+.fee_section_logo > span {
+  color: #fff;
+  font-size: 13px;
+}
+.fee_section_h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  line-height: 20px;
+  margin-left: 9.5px;
+}
+.fee_section_p {
+  color: #808191;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  margin-left: 13px;
+  margin-top: 7px;
+}
+.fee_section_link_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 297px;
+  height: 56px;
+  margin-left: 10px;
+  color: #fff;
+  background: #242731;
+  mix-blend-mode: normal;
+  border-radius: 8px;
+}
+.fee_section_link {
+}
+.fee_section_link_icon {
+  background-color: transparent;
+}
+.fee_section_link_icon > button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 5px;
+}
+.fee_section_link_icon > button:hover {
+  color: #e0e1eb;
+}
+
+/* ************************* Section tab style******************** */
+
+.section_tab_container {
+  border: solid 2px red;
+  width: 90%;
+  margin: 20px 5%;
+}
+.tab_heading_container {
+  display: flex;
+
+}
+.tab_heading_h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+}
+.tab_heading_h2:nth-child(2) {
+  margin-left: 21.5px;
+}
+.section_first_tab_list {
+  
+}

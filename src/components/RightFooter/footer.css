@@ -1,0 +1,106 @@
+.footer_container {
+  /* border: solid 2px red; */
+}
+.footer_top_button_group {
+  /* border: solid 2px blue; */
+  width: 90%;
+  margin: 24.99px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_avalanche_button {
+  width: 146.67px;
+  height: 39.22px;
+  background: #353945;
+  border-radius: 10px;
+  color: #fff;
+  align-items: center;
+  border: none;
+}
+.footer_avalanche_button > img {
+  margin-right: 6px;
+}
+.footer_avalanche_button span {
+  margin-left: 4px;
+  font-size: 15.0211px;
+  line-height: 29px;
+}
+.footer_second_button {
+  width: 166.67px;
+  height: 39.22px;
+  background: transparent;
+  border-radius: 10px;
+  font-size: 15.0211px;
+  line-height: 29px;
+  color: #fff;
+  border: 2px solid blue;
+}
+.footer_second_button > span {
+  margin: 0 10px;
+}
+.footer_custom_link_div {
+  /* border: solid 2px white; */
+  display: flex;
+  align-items: center;
+  place-items: center;
+  color: #fff;
+  padding-left: 1.2rem;
+}
+.footer_back_button {
+  color: #fff;
+  font-weight: 300;
+  cursor: pointer;
+  margin-top: -3px;
+}
+.footer_custom_link_h2 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+.footer_link_p {
+  color: #fff;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 48px;
+  margin-left: 1.2rem;
+}
+.footer_input_main {
+  /* border: solid 2px greenyellow; */
+  width: 90%;
+  margin: 0 5%;
+}
+.footer_input_main > input {
+  width: 333.94px;
+  height: 50.63px;
+  background: #242731;
+  mix-blend-mode: normal;
+  border-radius: 12px;
+  border: none;
+  padding-left: 20px;
+  color: #fff;
+}
+.footer_input_main > input::placeholder {
+  font-size: 14px;
+}
+.footer_bottom_button_group {
+  /* border: solid 2px red; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30.6px;
+  padding-left: 1.2rem;
+}
+/* footer bottom first buttom style have taken from section8.css form reward right side button */
+
+.footer_bottm_cencle_button {
+  border: 1px solid #242731;
+  width: 126px;
+  height: 36px;
+  border-radius: 12px;
+  background-color: transparent;
+  color: #fff;
+  margin-right: 59px;
+  padding: 5px 0;
+}
+.footer_bottm_cencle_button > span {
+    margin-right: 10px;
+}
