@@ -19,6 +19,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Section8 />} />
             <Route path="/section8" element={<Section8 />} />
+            <Route path="/dashboard" element={<Section8 />} />
           </Routes>
         </div>
         <div className="footer_components">
